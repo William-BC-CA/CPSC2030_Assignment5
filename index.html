@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Assignment 5</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="icomoon/style.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="scripts/gallery.js" charset="utf-8"></script>
+
+    <!-- Image generator -->
+    <script type="text/javascript" src="generator.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Assignment 5: jQuery DOM Manipulation</h1>
+      </header>
+
+      <main>
+        <div class="image-generator">
+          <h2>Random Unsplash Image Generator</h2>
+
+          <form method="GET">
+            <label>
+              Enter the subject for your new image (use commas to separate
+              multiple subjects):
+              <input type="text" name="subject" value="" />
+            </label>
+
+            <input type="submit" value="Generate" />
+
+            <button type="button" class="add">Add to Gallery</button>
+          </form>
+
+          <div class="image-container loaded">
+            <img
+              src="https://source.unsplash.com/400x250/"
+              alt="Randomly Generated Image"
+            />
+          </div>
+        </div>
+
+        <section id="image-gallery">
+          <h2>Image Gallery</h2>
+        </section>
+
+        <div class="image-generator">
+          <h2>Random Unsplash Image Generator</h2>
+
+          <form method="GET">
+            <label>
+              Enter the subject for your new image (use commas to separate
+              multiple subjects):
+              <input type="text" name="subject" value="" />
+            </label>
+
+            <input type="submit" value="Generate" />
+
+            <button type="button" class="add">Add to Gallery</button>
+          </form>
+
+          <div class="image-container loaded">
+            <img
+              src="https://source.unsplash.com/400x250/"
+              alt="Randomly Generated Image"
+            />
+          </div>
+        </div>
+      </main>
+
+      <footer>
+        CPSC 2030 Assignment 5
+      </footer>
+    </div>
+  </body>
+</html>
